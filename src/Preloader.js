@@ -12,6 +12,7 @@ gta.Preloader.prototype = {
 		// load images
 		this.load.spritesheet("background", 'img/FrontPage1.png',321,481);
 		this.load.atlas('mainMenuSprites', 'img/FrontPage1.png', 'src/texturepacker.json');
+		this.load.atlas('bottles', 'img/wine1.png', 'src/bottles.json');
 
 		// this.load.image('background', 'img/background.jpg');
 		this.load.image('stone', 'img/cannon.png');
